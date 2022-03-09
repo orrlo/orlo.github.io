@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Golden Fitness</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <link rel="stylesheet" type="text/css" href="sidebar.css">
+  <link rel="stylesheet" type="text/css" href="font.css">
+  <link rel="stylesheet" type="text/css" href="pie.css">
+  <link rel="stylesheet" type="text/css" href="planes.css">
+  <link rel="icon" href="logo-removebg.ico">
+</head>
+
+<header class="p-3 bg-dark text-white">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+      </a>
+
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <li></li>
+      </ul>
+
+      <div class="text-end">
+        <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#login">Iniciar
+          Sesion</button>
+        <button type="button" class="btn btn-warning">Registrarse</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<body style="background: #000;">
+
+  <div class="navigation">
+    <div class="menuToggle"></div>
+    <ul>
+      <li class="list">
+        <a href="#principal">
+          <span class="icon">
+            <ion-icon name="home-outline"></ion-icon>
+          </span>
+          <span class="text">Principal</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="#planes">
+          <span class="icon">
+            <ion-icon name="calendar-outline"></ion-icon>
+          </span>
+          <span class="text">Planes</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="#fotos">
+          <span class="icon">
+            <ion-icon name="camera-outline"></ion-icon>
+          </span>
+          <span class="text">Fotos</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="#ubicacion">
+          <span class="icon">
+            <ion-icon name="location-outline"></ion-icon>
+          </span>
+          <span class="text">Ubicacion</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div id="principal"
+    style="text-align: center; background-image: url(logo/fondo_principal.jpg);background-size: cover;background-repeat:no-repeat; background-position: center center; background-attachment: fixed;">
+    <img src="logo/logo-removebg.png" alt="Logo de SLee Dw">
+  </div>
+  <br>
+  <div id="planes" style="color: #fff; text-align: center; text-transform: uppercase;">
+    <h1>Planes</h1>
+    <div class="cont">
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <h2>Welcome Pack</h2>
+            <p style="font-size:2em"><b>S/ 87.00</b></p>
+            <p>Precio x Mes</p>
+            <p>S/ 87.00 </p>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#plan1">
+              Mas del plan
+            </button>
+          </div>
+        </div>
+        <div class="face face2">
+          <h2>01</h2>
+        </div>
+      </div>
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <h2>AÑO + 1 MES DE REGALO</h2>
+            <p style="font-size:2em"><b>S/ 1,250.00</b></p>
+            <p>Precio x Mes</p>
+            <p>S/ 104.17</p>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#plan2">
+              Mas del plan
+            </button>
+          </div>
+        </div>
+        <div class="face face2">
+          <h2>02</h2>
+        </div>
+      </div>
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <h2>TRIMESTRE</h2>
+            <p style="font-size:2em"><b>S/ 462.00</b></p>
+            <p>Precio x Mes S/ 154.00</p>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#plan3">
+              Mas del plan
+            </button>
+          </div>
+        </div>
+        <div class="face face2">
+          <h2>03</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div id="fotos" style="text-align: center;color: #fff;text-transform: uppercase;">
+    <h1>Fotos</h1>
+    <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="logo/1.jpg" height="700px" class="d-block w-100" alt="GOLDEN FITNESS">
+        </div>
+        <div class="carousel-item">
+          <img src="logo/2.jpg" height="700px" class="d-block w-100" alt="GOLDEN FITNESS">
+        </div>
+        <div class="carousel-item">
+          <img src="logo/3.jpg" height="700px" class="d-block w-100" alt="GOLDEN FITNESS">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div id="ubicacion" style="text-align: center;color: #fff;text-transform: uppercase;">
+    <br>
+    <h1>Ubicacion</h1>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124866.21024172088!2d-76.96022232606491!3d-12.038765924834966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c3d12afa9c23%3A0x8a9da7f852624412!2sAte!5e0!3m2!1ses!2spe!4v1646767305767!5m2!1ses!2spe"
+      width="1300" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+  <div class="modal fade" id="plan1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content" style="background: #212529; color: #fff;">
+        <br>
+        <ul>
+          ¿QUÉ INCLUYE?
+          <hr>
+          <div>
+            <li>1 mes de entrenamiento en la sede.</li>
+            <li>Evaluación de composición corporal y programa de entrenamiento personalizado.</li>
+            <li>Tarifa de renovado al momento de adquirir un nuevo plan.</li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="plan2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content" style="background: #212529; color: #fff;">
+        <br>
+        <ul>
+          ¿QUÉ INCLUYE?
+          <hr>
+          <div>
+            <li>Evaluación de composición corporal y programa de entrenamiento personalizado.</li>
+            <li>Puedes congelar tu plan 2 veces al año sin costo.</li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="plan3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content" style="background: #212529; color: #fff;">
+        <br>
+        <ul>
+          ¿QUÉ INCLUYE?
+          <hr>
+          <div>
+            <li>3 meses de afiliación en categoría CLASSIC</li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="contenedor modal-content">
+        <form name="formulario">
+          <h3>
+            <ion-icon name="person-outline">a</ion-icon>
+          </h3>
+          <h3>Iniciar Sesion</h3>
+          <div class="inputBox">
+            <span>Usuario</span>
+            <div class="box">
+              <input type="text" name="Usuario" value="" required="">
+            </div>
+          </div>
+          <div class="inputBox">
+            <span>Contraseña</span>
+            <div class="box">
+              <input type="password" name="Pass" value="" required="">
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="box">
+              <input type="button" value="Iniciar Sesion">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <a href="#">
+            <img src="logo/logo-removebg.png" alt="Logo de SLee Dw">
+          </a>
+        </figure>
+      </div>
+      <div class="box">
+        <h2>CONOCENOS</h2>
+        <a href="historia.html" style="text-decoration: none;text-transform: uppercase;color: #fff;">Historia</a>
+      </div>
+      <div class="box">
+        <h2>SIGUENOS</h2>
+        <div class="red-social">
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small>&copy; 2022 <b>Golden Fitness</b> - Todos los Derechos Reservados.</small>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menuToggle');
+    const navigation = document.querySelector('.navigation');
+    menuToggle.onclick = function () {
+      navigation.classList.toggle('open')
+    }
+
+    const list = document.querySelectorAll('.list');
+    function activeLink() {
+      list.forEach((item) =>
+        item.classList.remove('active'));
+      this.classList.add('active');
+    }
+    list.forEach((item) =>
+      item.addEventListener('click', activeLink))
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
