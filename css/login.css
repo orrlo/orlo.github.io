@@ -1,0 +1,59 @@
+.contenedor
+{
+    position: relative;
+    width: 350px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #212529;
+    padding: 50px;
+}
+.contenedor h3
+{
+    color: #fff;
+    font-weight: 600;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.inputBox span
+{
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+    border-left: 4px solid #fff;
+    padding-left: 4px;
+    line-height: 1em;
+}
+.inputBox .box input
+{
+    position: relative;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-size: 0.85em;
+}
+.inputBox .box input[type="submit"]
+{
+    background: #ffc107;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 10px;
+}
